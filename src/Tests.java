@@ -54,7 +54,7 @@ public class Tests {
     }
 
     public static void Test() {
-        String filename = "results.txt";
+        String filename = "data/results/results.txt";
         try {
             FileWriter writer = new FileWriter(filename);
             int n = 1, m = 1;
